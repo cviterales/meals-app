@@ -26,7 +26,6 @@ const defaultStackNavOptions = {
     fontFamily: "open-sans",
   },
   headerTintColor: Platform.OS === "android" ? "white" : "",
-  headerTitle: "A Screen",
 };
 
 const MealsNavigator = createStackNavigator(
